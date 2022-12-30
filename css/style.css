@@ -35,7 +35,26 @@ body {
   text-align: center;
 }
 
+.container__img,
+.container__heading {
+  margin-bottom: 2rem;
+}
+
+.container__heading,
+.container__paragraph {
+  padding: 0 1rem;
+}
+
 .container__img {
   width: 100%;
   border-radius: var(--border-radius);
+}
+
+.container__heading {
+  color: var(--color-dark-blue);
+}
+
+.container__paragraph {
+  color: var(--color-grey-blue);
+  font-size: 1.5rem;
 }
